@@ -8,12 +8,12 @@
 
 /* -------- GLOBAL & VIDEO DE FOND -------- */
 body {
-    background: #0a0f1f; /* Fallback si la vidéo ne charge pas */
-    color: #ccd6f6;
-    line-height: 1.6;
-    padding: 25px;
-    position: relative; /* Base pour la superposition */
-    z-index: 1; /* Le contenu est au-dessus de la vidéo */
+    background-image: url("fond.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 }
 
 /* -------- HEADER -------- */
@@ -153,6 +153,7 @@ footer {
 
     z-index: -1; /* passe derrière ton contenu */
 }
+
 
 
 
