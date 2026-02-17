@@ -146,7 +146,7 @@ footer {
     width: 100%;
     height: 100%;
 
-    background-image: url("fond.jpg"); /* nom de ton image */
+    background-image: url("dex.jpg"); /* nom de ton image */
     background-size: cover; /* prend tout l'écran */
     background-position: center; /* centre l'image */
     background-repeat: no-repeat;
