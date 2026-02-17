@@ -21,8 +21,9 @@ header {
     text-align: center;
     padding: 40px 20px;
     
-    background: transparent; /* Rendu transparent pour voir la vidéo */
-    backdrop-filter: blur(5px); /* Ajoute un flou sur les éléments derrière (la vidéo) */
+    background: rgba(5, 15, 30, 0.8);
+    border: 1px solid #1f4068;
+
 
     border: 1px solid #1f4068;
     border-radius: 12px;
@@ -44,8 +45,9 @@ header p {
 
 /* -------- SECTIONS -------- */
 section {
-    background: transparent; /* Rendu transparent pour voir la vidéo */
-    backdrop-filter: blur(5px); /* Ajoute un flou sur les éléments derrière (la vidéo) */
+    background: rgba(5, 15, 30, 0.8);
+    border: 1px solid #1f4068;
+
 
     border: 1px solid #23395d;
     border-radius: 12px;
@@ -153,6 +155,7 @@ footer {
 
     z-index: -1; /* passe derrière ton contenu */
 }
+
 
 
 
