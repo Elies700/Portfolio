@@ -138,6 +138,22 @@ footer {
         grid-template-columns: 1fr; 
     }
 }
+/* IMAGE DE FOND */
+#gif-background {
+    position: fixed;   /* reste fixe même quand on scroll */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("fond.jpg"); /* nom de ton image */
+    background-size: cover; /* prend tout l'écran */
+    background-position: center; /* centre l'image */
+    background-repeat: no-repeat;
+
+    z-index: -1; /* passe derrière ton contenu */
+}
+
 
 
 
